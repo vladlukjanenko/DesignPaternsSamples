@@ -1,7 +1,7 @@
 /**
  * 
  */
-package architectural.mvc.pattern;
+package mvc.pattern;
 
 /**
  * @author Vlad Lukjanenko
