@@ -6,14 +6,12 @@ package structural.flyweight.pattern;
 /**
  * @author Vlad Lukjanenko
  * =======================    Structural Pattern    =======================
+ * 
  */
 public class FlyWeightPatternDemo {
 	
 	private static final String colors[] = { "Red", "Green", "Blue", "White", "Black" };
 	
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		for (int i = 0; i < 20; ++i) {

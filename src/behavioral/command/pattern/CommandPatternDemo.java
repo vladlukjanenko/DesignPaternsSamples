@@ -9,9 +9,6 @@ package behavioral.command.pattern;
  */
 public class CommandPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		Stock abcStock = new Stock();

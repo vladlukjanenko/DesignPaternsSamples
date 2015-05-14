@@ -9,9 +9,6 @@ package creational.abstractfactory.pattern;
  */
 public class AbstractFactoryPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		// get shape factory

@@ -19,9 +19,6 @@ public class AndCriteria implements Criteria {
 		this.otherCriteria = otherCriteria;
 	}
 	
-	/* 
-	 * @see filter.pattern.Criteria#meetCriteria(java.util.List)
-	 */
 	@Override
 	public List<Person> meetCriteria(List<Person> persons) {
 		List<Person> firstCriteriaPersons = criteria.meetCriteria(persons);

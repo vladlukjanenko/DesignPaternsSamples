@@ -9,9 +9,6 @@ package behavioral.memento.pattern;
  */
 public class MementoPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		Originator originator = new Originator();

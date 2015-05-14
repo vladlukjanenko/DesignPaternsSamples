@@ -9,9 +9,6 @@ package creational.builder.pattern;
  */
 public class BuilderPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		// create MealBuilder

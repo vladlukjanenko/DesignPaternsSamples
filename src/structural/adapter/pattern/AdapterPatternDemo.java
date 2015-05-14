@@ -6,12 +6,10 @@ package structural.adapter.pattern;
 /**
  * @author Vlad Lukjanenko
  * =======================    Structural Pattern    =======================
+ * 
  */
 public class AdapterPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		MediaPlayer audioPlayer = new AudioPlayer();

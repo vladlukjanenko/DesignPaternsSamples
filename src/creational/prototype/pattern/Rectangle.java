@@ -13,9 +13,6 @@ public class Rectangle extends Shape {
 		type = "Rectangle";
 	}
 	
-	/* 
-	 * @see prototype.pattern.Shape#draw()
-	 */
 	@Override
 	void draw() {
 		System.out.println("Inside Rectangle::draw() method.");

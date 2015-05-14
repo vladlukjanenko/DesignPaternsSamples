@@ -6,12 +6,10 @@ package structural.composite.pattern;
 /**
  * @author Vlad Lukjanenko
  * =======================    Structural Pattern    =======================
+ * 
  */
 public class CompositePatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		Employee ceo = new Employee("John", "CEO", 30000);

@@ -5,13 +5,10 @@ package behavioral.strategy.pattern;
 
 /**
  * @author Vlad Lukjanenko
- *
+ * =======================    Behavioral Pattern    =======================
  */
 public class StrategyPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		Context context = new Context(new OperationAdd());

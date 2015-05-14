@@ -9,12 +9,10 @@ import java.util.List;
 /**
  * @author Vlad Lukjanenko
  * =======================    Structural Pattern    =======================
+ * 
  */
 public class CriteriaPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		List<Person> persons = new ArrayList<Person>();

@@ -11,9 +11,6 @@ public class NameRepository implements Container {
 
 	public String names[] = {"Robert" , "John" ,"Julie" , "Lora"};
 	
-	/*
-	 * @see behavioral.iterator.pattern.Container#getIterator()
-	 */
 	@Override
 	public Iterator getIterator() {
 		return new NameIterator();
@@ -23,9 +20,6 @@ public class NameRepository implements Container {
 
 		int index;
 		
-		/*
-		 * @see behavioral.iterator.pattern.Iterator#hasNext()
-		 */
 		@Override
 		public boolean hasNext() {
 			
@@ -37,9 +31,6 @@ public class NameRepository implements Container {
 			
 		}
 
-		/* 
-		 * @see behavioral.iterator.pattern.Iterator#next()
-		 */
 		@Override
 		public Object next() {
 

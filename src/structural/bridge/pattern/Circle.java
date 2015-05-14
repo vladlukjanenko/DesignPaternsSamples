@@ -11,9 +11,6 @@ public class Circle extends Shape {
 
 	private int x, y, radius;
 	
-	/**
-	 * @param drawAPI
-	 */
 	public Circle(int x, int y, int radius, DrawAPI drawAPI) {
 		super(drawAPI);
 		this.x = x;
@@ -21,9 +18,6 @@ public class Circle extends Shape {
 		this.radius = radius;		
 	}
 
-	/* 
-	 * @see bridge.pattern.Shape#draw()
-	 */
 	@Override
 	public void draw() {
 		drawAPI.drawCircle(radius, x, y);

@@ -9,10 +9,6 @@ package creational.abstractfactory.pattern;
  */
 public class ColorFactory extends AbstractFactory {
 
-	/*
-	 * @see abstractfactory.pattern.AbstractFactory#getColor(java.lang.String)
-	 * getColor(String color) returns the type of the color
-	 */
 	@Override
 	Color getColor(String color) {
 		
@@ -31,9 +27,6 @@ public class ColorFactory extends AbstractFactory {
 		return null;
 	}
 
-	/* 
-	 * @see abstractfactory.pattern.AbstractFactory#getShape(java.lang.String)
-	 */
 	@Override
 	Shape getShape(String shape) {
 		return null;

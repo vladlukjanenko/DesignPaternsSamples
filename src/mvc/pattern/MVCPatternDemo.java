@@ -3,17 +3,21 @@
  */
 package mvc.pattern;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 /**
  * @author Vlad Lukjanenko
+ * =======================    MVC Pattern    =======================
  *
  */
 public class MVCPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-
+		
 		// fetch student record based on his roll no from the database
 		Student model = retriveStudentFromDatabase();
 

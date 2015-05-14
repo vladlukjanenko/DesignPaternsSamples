@@ -13,9 +13,6 @@ public class ConsoleLogger extends AbstractLogger {
 		this.level = level;
 	}
 
-	/* 
-	 * @see behavioral.chain.of.responsibility.pattern.AbstractLogger#write(java.lang.String)
-	 */
 	@Override
 	protected void write(String message) {
 		System.out.println("Standard Console::Logger: " + message);

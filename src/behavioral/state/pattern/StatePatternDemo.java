@@ -9,9 +9,6 @@ package behavioral.state.pattern;
  */
 public class StatePatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		Context context = new Context();

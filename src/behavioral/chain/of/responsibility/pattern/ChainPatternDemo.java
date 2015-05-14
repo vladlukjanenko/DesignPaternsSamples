@@ -9,9 +9,6 @@ package behavioral.chain.of.responsibility.pattern;
  */
 public class ChainPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		AbstractLogger loggerChain = getChainOfLoggers();

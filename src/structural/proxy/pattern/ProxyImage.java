@@ -15,10 +15,7 @@ public class ProxyImage implements Image {
 	public ProxyImage(String fileName) {
 		this.fileName = fileName;
 	}
-	
-	/* 
-	 * @see structural.proxy.pattern.Image#display()
-	 */
+
 	@Override
 	public void display() {
 		if(realImage == null) {

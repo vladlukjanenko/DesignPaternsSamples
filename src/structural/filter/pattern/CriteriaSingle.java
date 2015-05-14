@@ -12,9 +12,6 @@ import java.util.List;
  */
 public class CriteriaSingle implements Criteria {
 
-	/*
-	 * @see filter.pattern.Criteria#meetCriteria(java.util.List)
-	 */
 	@Override
 	public List<Person> meetCriteria(List<Person> persons) {
 		List<Person> singlePersons = new ArrayList<Person>();

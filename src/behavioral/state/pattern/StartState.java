@@ -12,9 +12,6 @@ import behavioral.state.pattern.State;
  */
 public class StartState implements State {
 
-	/* 
-	 * @see behavioral.state.pattern.State#doAction(behavioral.state.pattern.Context)
-	 */
 	@Override
 	public void doAction(Context context) {
 

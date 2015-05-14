@@ -26,9 +26,6 @@ public abstract class Shape implements Cloneable {
 		return id;
 	}
 
-	/*
-	 * @see java.lang.Object#clone()
-	 */
 	@Override
 	protected Object clone() {
 

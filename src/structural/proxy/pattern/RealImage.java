@@ -16,9 +16,6 @@ public class RealImage implements Image {
 		loadFromDisk(fileName);
 	}
 	
-	/*
-	 * @see structural.proxy.pattern.Image#display()
-	 */
 	@Override
 	public void display() {
 		System.out.println("Displaying " + fileName);

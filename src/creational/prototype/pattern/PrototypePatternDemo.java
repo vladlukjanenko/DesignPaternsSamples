@@ -9,9 +9,6 @@ package creational.prototype.pattern;
  */
 public class PrototypePatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		ShapeCache.loadCache();

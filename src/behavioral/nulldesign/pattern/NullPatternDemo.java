@@ -9,9 +9,6 @@ package behavioral.nulldesign.pattern;
  */
 public class NullPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		AbstractCustomer customer1 = CustomerFactory.getCustomer("Rob");

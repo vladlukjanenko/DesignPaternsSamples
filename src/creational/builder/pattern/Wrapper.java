@@ -9,9 +9,6 @@ package creational.builder.pattern;
  */
 public class Wrapper implements Packing {
 
-	/*
-	 * @see builder.pattern.Packing#pack()
-	 */
 	@Override
 	public String pack() {
 		return "Wrapper";

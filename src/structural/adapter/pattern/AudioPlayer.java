@@ -11,9 +11,6 @@ public class AudioPlayer implements MediaPlayer {
 
 	MediaAdapter mediaAdapter;
 	
-	/* 	
-	 * @see adapter.pattern.MediaPlayer#play(java.lang.String, java.lang.String)
-	 */
 	@Override
 	public void play(String audioType, String fileName) {
 		

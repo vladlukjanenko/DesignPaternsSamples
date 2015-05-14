@@ -9,16 +9,10 @@ package structural.decorator.pattern;
  */
 public class RedShapeDecorator extends ShapeDecorator {
 
-	/**
-	 * @param decoratedShape
-	 */
 	public RedShapeDecorator(Shape decoratedShape) {
 		super(decoratedShape);
 	}
 
-	/*
-	 * @see structural.decorator.pattern.ShapeDecorator#draw()
-	 */
 	@Override
 	public void draw() {
 		decoratedShape.draw();

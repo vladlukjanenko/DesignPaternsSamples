@@ -9,9 +9,6 @@ package behavioral.interpreter.pattern;
  */
 public class InterpreterPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		Expression isMale = getMaleExpression();

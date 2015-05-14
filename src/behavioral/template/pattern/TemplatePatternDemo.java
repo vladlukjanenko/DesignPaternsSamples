@@ -5,7 +5,7 @@ package behavioral.template.pattern;
 
 /**
  * @author Vlad Lukjanenko
- *
+ * =======================    Behavioral Pattern    =======================
  */
 public class TemplatePatternDemo {
 

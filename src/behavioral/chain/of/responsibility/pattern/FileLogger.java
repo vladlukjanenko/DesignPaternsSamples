@@ -13,11 +13,6 @@ public class FileLogger extends AbstractLogger {
 		this.level = level;
 	}
 
-	/*
-	 * @see
-	 * behavioral.chain.of.responsibility.pattern.AbstractLogger#write(java.
-	 * lang.String)
-	 */
 	@Override
 	protected void write(String message) {
 		System.out.println("File::Logger: " + message);

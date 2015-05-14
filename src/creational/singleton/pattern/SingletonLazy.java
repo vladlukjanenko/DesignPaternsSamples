@@ -5,9 +5,7 @@ package creational.singleton.pattern;
 
 /**
  * @author Vlad Lukjanenko
- * Creational pattern
  * 
- * Without synchronization
  */
 public class SingletonLazy {
 	

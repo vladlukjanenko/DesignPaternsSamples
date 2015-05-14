@@ -17,10 +17,6 @@ public class AndExpression implements Expression {
 		this.expr2 = expr2;
 	}
 
-	/*
-	 * @see
-	 * behavioral.interpreter.pattern.Expression#interpret(java.lang.String)
-	 */
 	@Override
 	public boolean interpret(String context) {
 		return expr1.interpret(context) && expr2.interpret(context);

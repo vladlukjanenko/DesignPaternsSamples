@@ -15,9 +15,6 @@ public class TerminalExpression implements Expression {
 		this.data = data;
 	}
 	
-	/* 
-	 * @see behavioral.interpreter.pattern.Expression#interpret(java.lang.String)
-	 */
 	@Override
 	public boolean interpret(String context) {
 		

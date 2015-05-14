@@ -9,9 +9,6 @@ package structural.facade.pattern;
  */
 public class Square implements Shape {
 
-	/* 
-	 * @see structural.facade.pattern.Shape#draw()
-	 */
 	@Override
 	public void draw() {
 		System.out.println("Square::draw()");

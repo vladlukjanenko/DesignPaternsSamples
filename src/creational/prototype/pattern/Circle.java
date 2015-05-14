@@ -13,9 +13,6 @@ public class Circle extends Shape {
 		type = "Circle";
 	}
 	
-	/* 
-	 * @see prototype.pattern.Shape#draw()
-	 */
 	@Override
 	void draw() {
 		System.out.println("Inside Circle::draw() method.");

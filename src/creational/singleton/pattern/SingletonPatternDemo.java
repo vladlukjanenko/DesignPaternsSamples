@@ -6,12 +6,10 @@ package creational.singleton.pattern;
 /**
  * @author Vlad Lukjanenko
  * =======================    Creational Pattern    =======================
+ * 
  */
 public class SingletonPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		System.out.println("Singleton");

@@ -30,9 +30,6 @@ public class Circle implements Shape {
 		this.radius = radius;
 	}
 
-	/*
-	 * @see structural.flyweight.pattern.Shape#draw()
-	 */
 	@Override
 	public void draw() {
 		System.out.println("Circle: Draw() [Color : " + color + ", x : " + x

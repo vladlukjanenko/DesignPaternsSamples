@@ -15,9 +15,6 @@ public abstract class ShapeDecorator implements Shape {
 		this.decoratedShape = decoratedShape;
 	}
 	
-	/* 
-	 * @see structural.decorator.pattern.Shape#draw()
-	 */
 	@Override
 	public void draw() {
 		decoratedShape.draw();

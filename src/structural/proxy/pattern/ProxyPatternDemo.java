@@ -6,12 +6,10 @@ package structural.proxy.pattern;
 /**
  * @author Vlad Lukjanenko
  * =======================    Structural Pattern    =======================
+ * 
  */
 public class ProxyPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		Image image = new ProxyImage("test.png");

@@ -5,13 +5,10 @@ package behavioral.visitor.pattern;
 
 /**
  * @author Vlad Lukjanenko
- *
+ * =======================    Behavioral Pattern    =======================
  */
 public class VisitorPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		ComputerPart computer = new Computer();

@@ -9,9 +9,6 @@ package behavioral.iterator.pattern;
  */
 public class IteratorPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		NameRepository namesRepository = new NameRepository();

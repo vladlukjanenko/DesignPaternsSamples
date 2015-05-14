@@ -13,17 +13,11 @@ public class RealCustomer extends AbstractCustomer {
 		this.name = name;
 	}
 
-	/* 
-	 * @see behavioral.nulldesign.pattern.AbstractCustomer#isNull()
-	 */
 	@Override
 	public boolean isNull() {
 		return false;
 	}
 
-	/* 
-	 * @see behavioral.nulldesign.pattern.AbstractCustomer#getName()
-	 */
 	@Override
 	public String getName() {
 		return name;

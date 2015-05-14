@@ -6,12 +6,10 @@ package structural.decorator.pattern;
 /**
  * @author Vlad Lukjanenko
  * =======================    Structural Pattern    =======================
+ * 
  */
 public class DecoratorPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		Shape circle = new Circle();

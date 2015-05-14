@@ -9,9 +9,6 @@ package behavioral.mediator.pattern;
  */
 public class MediatorPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		User robert = new User("Robert");

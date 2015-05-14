@@ -15,9 +15,6 @@ public class Computer implements ComputerPart {
 		parts = new ComputerPart[] { new Mouse(), new KeyBoard(), new Monitor() };
 	}
 
-	/* 
-	 * @see behavioral.visitor.pattern.ComputerPart#accept(behavioral.visitor.pattern.ComputerPartVisitor)
-	 */	
 	@Override
 	public void accept(ComputerPartVisitor computerPartVisitor) {
 		

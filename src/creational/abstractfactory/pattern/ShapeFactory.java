@@ -9,18 +9,11 @@ package creational.abstractfactory.pattern;
  */
 public class ShapeFactory extends AbstractFactory {
 
-	/* 
-	 * @see abstractfactory.pattern.AbstractFactory#getColor(java.lang.String)
-	 */
 	@Override
 	Color getColor(String color) {
 		return null;
 	}
 
-	/*
-	 * @see abstractfactory.pattern.AbstractFactory#getShape(java.lang.String)
-	 * getShape(StringType) returns the type of the shape
-	 */
 	@Override
 	Shape getShape(String shape) {
 

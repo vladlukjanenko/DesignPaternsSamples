@@ -10,9 +10,6 @@ package creational.factory.pattern;
  */
 public class FactoryPatternDemo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		// create ShapeFactory object
